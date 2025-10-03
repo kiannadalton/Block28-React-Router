@@ -6,4 +6,4 @@ The block covers React Router by building out front-end routing for a single-pag
 
 ## Demonstrates use of:
 
-React, React Router
+React, React Router, BrowserRouter, Routes, Route, NavLink, useNavigator(), useParams(), .find, parseInt

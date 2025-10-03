@@ -1,5 +1,6 @@
 // 👉 STEP 2 - React Router imports (Routes, Route)
 //components
+import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/NavBar";
 import ItemsList from "./components/ItemsList";
@@ -13,6 +14,13 @@ function App() {
         <Navbar />
       </nav>
       {/* 👉 STEP 3 - Build Routes for Home, ItemsList and ItemDetails */}
+
+      {/* Things in Routes will not show until triggered */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/items" element={<ItemsList />} />
+        <Route path="/items/:itemId" element={<ItemDetails />} />
+      </Routes>
     </div>
   );
 }
