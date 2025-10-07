@@ -5,8 +5,7 @@ The block covers React Router by building out front-end routing for a single-pag
 ## Deployed Links:
 
 - Block 28 Demo: https://block28reactrouterdemo.netlify.app/
-
-## Learning Lessons:
+- Block 28 Workshop: https://block28reactrouterworkshop.netlify.app/
 
 ## Demonstrates use of:
 
